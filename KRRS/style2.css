@@ -1,0 +1,235 @@
+
+body{
+    font-family:  sans-serif;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    background:#8b0808;
+    position: fixed;    
+}
+
+.mascot{
+    width:20%;
+}
+
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color:white;
+    padding: 0 100px;
+    line-height: 80px;;
+}
+nav ul{
+    padding-top: 0px;
+    padding-right: 0px;
+    float: right;
+    margin-right: 0px;
+}
+nav li{
+    display :inline-block;
+    margin: 0px;
+    line-height: 30px;
+}
+nav a{
+    color:white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border:1px solid transparent;
+    padding:7px 10px;
+    border-radius:3px;
+
+}
+
+
+a.active,a:hover{
+    border:1px solid transparent;
+    transition : .5s;
+}
+label.logo{
+    position: absolute;
+    color: burlywood;
+    font-size: 45px;
+    left: 25%;
+    padding: 10px 55px 0px 0px;
+    font-weight: bold;
+    
+}
+.sidebar{
+    position:fixed;
+    height: 100%;
+    width: 250px;
+    top:100px;
+    background: #8b0808;
+    overflow: auto;
+}
+.sidebar header{
+    font-size: 35px;
+    color: burlywood;
+    text-align: center;
+    height: 50px;
+    background-color: rgb(0, 112, 47);
+    user-select: none;
+    width: 100%;
+}
+.sidebar ul a{
+    display : block;
+    height: 7%;
+    width:100%;
+    line-height: 40px;
+    font-size: 15px;
+    color:whitesmoke;
+    text-align: center;
+    box-sizing: border-box;
+    /*border-top: 1px solid rgba(255,255,255,.8);
+    border-bottom : 1px solid rgba(255,255,255,.8);*/
+    transition: .5s;
+}
+ul li:hover a{
+    padding-left: 50px;
+}
+
+.sidebar ul a i {
+    margin-right: 15px;
+}
+
+nav img{
+    padding-left: 30px;
+    padding-top: 15px;
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+.form1{
+    color: black;
+    left: 1000px;
+}
+
+div.dmahasiswa {
+    margin-left: 260px;
+    padding: 200px 16px 0px 25%;
+    height: 1000px;
+
+}
+
+.dmahasiswa form{
+    padding:15px;
+    border: 2px black solid;
+    border-radius: 15px;
+    width: 50%;
+}
+
+
+
+div.content {
+    margin-left: 250px;
+    padding: 190px 16px 0px 16px;
+    height: 1000px;
+}
+.box {
+    width: 500px;
+    height: 200px;
+    background-color: #E9967A;
+    margin: 15% auto;
+    padding: 30px;
+    border: 5px solid;
+    border-radius: 20px;
+}
+
+.status {
+    width: 60px;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #7FFFD4;
+}
+
+div.panduan {
+    margin-left: 275px;
+    padding: 200px 16px 0px 16px;
+    height: 1000px;
+}
+
+.panduanimg{
+    width :90%;
+    border: 1px black solid;
+    border-radius: 15px;
+}
+
+.logouttext{
+    text-align: center;
+    padding: 110px 16px 0px 16px;
+    height: 1000px;
+}
+
+.form-group-email{
+    padding-top: 120px;
+    
+}
+
+form{
+    padding-left: 30%;
+    width: 70%;
+}
+
+.krrs{
+    margin-left: 250px;
+    padding: 185px 16px 0px 16px;
+    height: 1000px;
+    
+}
+
+.krrstitle{
+    text-align: center;
+}
+#main-bar{
+    position: fixed;
+    width:100%;
+    top: 100px;
+    left: 250px;
+    position: fixed;
+    z-index:1;
+    height:50px;
+    text-align: center;
+}
+#main-bar .nav-item{
+    margin-left: 1%;
+    font-size: 17px;
+}
+#copyright{
+    text-align: center;
+    padding: 10px;
+    background-color:#8b0808;
+    bottom: 0;
+}
+#copyright1{
+    text-align: center;
+    padding: 10px;
+    border-left: 1px solid rgba(255,255,255,.8);
+    
+}
+.img{
+    width:30%;
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+}
+.container {
+    position: relative;
+    background: rgba(0,0,0,0.5);
+    width: 40%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+    padding: 40px;
+    color:white;
+}
